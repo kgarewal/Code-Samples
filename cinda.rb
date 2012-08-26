@@ -20,7 +20,8 @@
 # downloaded and which local peers are downloading which pieces
 #
 # Start from the command line
-
+# copyright : k.singh
+# license : GPL v. 3
 ################################################################################
 
 

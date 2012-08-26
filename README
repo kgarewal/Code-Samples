@@ -1,5 +1,32 @@
-This is sample code for a distributed Ruby Server based on the Ruby dRb lib.
-Remote PostgresSQL server table access through dRb. 
+SAMPLE CODE
+
+##################
+cinda.rb
+##################
+
+A dRb socket controller for a Peer to Peer video On Demand sockets 
+
+#################
+metainfo.rb
+##################
+
+Active Record  model class for Ruby VoD Simulator
+
+####################
+torrent_spec.rb
+####################
+
+RSpec model tests for a Torrent < ActiveModel 
+
+
+
+##################
+mkimap_server.rb
+##################
+
+OLD CODE   - 3 years ago
+
+Remote PostgresSQL server, Cyrus IMAP and Sendmail access through distribute ruby - dRb. 
  It does the following 
 
     1   creates IMAP accounts
@@ -10,4 +37,4 @@ Remote PostgresSQL server table access through dRb.
     6.   Restart Sendmail
 
     Implements raw Ruby connections to PostgresSQL 
-    Create-Read-Delete for Cyrus IMAP server 
+    CRUD for Cyrus IMAP server 

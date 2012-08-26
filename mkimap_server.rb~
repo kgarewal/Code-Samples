@@ -24,8 +24,6 @@
   # NOTE: Sanitized command line parameters must be passed
   # Uses raw postgreSQL and IMAP connections 
   # Server bootup code at the end of file
-  # copyright k.singh
-  # Year 2008
   ########################################################################
 
   
