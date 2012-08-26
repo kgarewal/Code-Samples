@@ -1,5 +1,5 @@
 This is sample code for a distributed Ruby Server based on the Ruby dRb lib.
-
+Remote PostgresSQL server table access through dRb. 
  It does the following 
 
     1   creates IMAP accounts
@@ -8,5 +8,5 @@ This is sample code for a distributed Ruby Server based on the Ruby dRb lib.
     4.  Sets up the SENDMAIL config: relay table and mailertable for the new domain
     5   Restart Sendmail
 
-    Interoperates with PostgreSQL raw Ruby connections 
-    Interoperates with a Cyrus IMAP server 
+    Implements raw Ruby connections to PostgresSQL 
+    CRUD for Cyrus IMAP server 
