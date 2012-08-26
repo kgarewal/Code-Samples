@@ -4,9 +4,10 @@ Remote PostgresSQL server table access through dRb.
 
     1   creates IMAP accounts
     2.  Sets ACL's on these accounts, 
-    3.  Create User accounts
+    3.  Create PostgreSQL User accounts
     4.  Sets up the SENDMAIL config: relay table and mailertable for the new domain
-    5   Restart Sendmail
+    5.  Update Sendmail config
+    6.   Restart Sendmail
 
     Implements raw Ruby connections to PostgresSQL 
-    CRUD for Cyrus IMAP server 
+    Create-Read-Delete for Cyrus IMAP server 
