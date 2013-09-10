@@ -1,0 +1,17 @@
+class Appointment < ActiveRecord::Base
+  
+  belongs_to :doctor
+  belongs_to :pet
+  
+  before_save :validate_appointment_date
+  validates_presence_of :pet
+  validates_presence_of :customer
+  validates_presence_of :reason_for_visit
+  
+  private
+  
+  def validate_appointment_date
+    (errors.add(:date_of_visit, "date has past"); return false) if self.date_of_visit < Time.now
+  end
+  
+end

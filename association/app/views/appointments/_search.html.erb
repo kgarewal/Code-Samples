@@ -1,0 +1,11 @@
+<%= form_tag( :action => "search_result" ) do %>
+  
+  <div class="field">
+    <%= label_tag :customer %><br>
+    <%= text_field_tag :customer %>
+  </div>
+
+  <div class="actions">
+    <%= submit_tag('search') %>
+  </div>
+<% end %>

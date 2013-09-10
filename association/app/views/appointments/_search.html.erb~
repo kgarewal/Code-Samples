@@ -1,0 +1,11 @@
+<%= form_for @appointment,  :url => { :action => "search_result" } do |f| %>
+  
+  <div class="field">
+    <%= f.label :customer %><br>
+    <%= f.text_field :customer %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit('search') %>
+  </div>
+<% end %>

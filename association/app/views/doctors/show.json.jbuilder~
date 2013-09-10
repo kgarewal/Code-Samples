@@ -1,0 +1,1 @@
+json.extract! @doctor, :name, :address, :city, :state, :zip, :school, :years_in_practise, :integer, :created_at, :updated_at
