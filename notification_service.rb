@@ -1,5 +1,6 @@
 ####################################################################################
-# NotificationService: Notification Service For Approval notifications
+# NotificationService: Construct A Notification Service For Approval notifications
+# using an abstract class, a finite state machine and Resque
 ####################################################################################
 
 require 'abstract_service'
