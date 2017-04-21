@@ -1,3 +1,7 @@
+##########################################################################################
+# implement a facade service to hide services using the GoF facade design pattern
+##########################################################################################
+
 require "spec_helper"
 require 'json'
 
