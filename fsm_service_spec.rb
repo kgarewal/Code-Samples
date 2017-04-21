@@ -1,3 +1,7 @@
+##################################################################################
+# Implement A finite state machine in Ruby
+##################################################################################
+
 require "spec_helper"
 
 describe ServiceLayer::FSMService do
