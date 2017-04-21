@@ -1,5 +1,5 @@
 ####################################################################################
-# AutomatonService: Simple machine that instantiates a finite state machine for a 
+# AutomatonService: Simple machine that instantiates a finite state machine for each 
 # client request when a request is pushed from the queue. May perform some
 # initialization on the FSM
 ####################################################################################
