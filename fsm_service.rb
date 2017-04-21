@@ -1,6 +1,6 @@
 ####################################################################################
-# FSMService: Finite State Machine Service For Approval Workflows
-# Runs in a thread. Created by the Automaton Service.
+# FSMService: Threaded Finite State Machine Service For Approval Workflows.
+# Runs in a Ruby thread. Created by the Automaton Service.
 ####################################################################################
 
 require 'abstract_service'
