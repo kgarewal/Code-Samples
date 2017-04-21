@@ -1,5 +1,5 @@
 ﻿#######################################################################################
-# LicenseController Tests
+# LicenseController Rspec Controller  Unit Tests
 # Mock the server call in all but one such test
 #######################################################################################
 
