@@ -1,5 +1,6 @@
 ####################################################################################
 # FacadeService: Singleton Class providing facade services to the Approval System
+# implements the facade pattern
 ####################################################################################
 
 require 'singleton'
